@@ -1,8 +1,4 @@
-# File with heading
-
-<<<<<<< HEAD
-
-=======
+# Mathematics for Machine Learning Summative
 
 ## airwaves
 
