@@ -9,6 +9,12 @@ model = joblib.load('best_model.pkl')
 
 app = FastAPI()
 
+
+@app.get("/")
+def read_root():
+    return {"message": "Flight Delay Prediction API is running!"}
+
+
 # Enable CORS for frontend communication
 app.add_middleware(
     CORSMiddleware,
