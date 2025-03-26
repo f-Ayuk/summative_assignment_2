@@ -23,11 +23,11 @@ class FlightDelayPredictionPage extends StatefulWidget {
   const FlightDelayPredictionPage({super.key});
 
   @override
-  _FlightDelayPredictionPageState createState() =>
-      _FlightDelayPredictionPageState();
+  FlightDelayPredictionPageState createState() =>
+      FlightDelayPredictionPageState();
 }
 
-class _FlightDelayPredictionPageState extends State<FlightDelayPredictionPage> {
+class FlightDelayPredictionPageState extends State<FlightDelayPredictionPage> {
   final _airlineController = TextEditingController();
   final _flightNumberController = TextEditingController();
   final _departureAirportController = TextEditingController();
