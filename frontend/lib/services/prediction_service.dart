@@ -4,7 +4,7 @@ import '../models/flight_data.dart';
 
 class PredictionService {
   static const String _baseUrl =
-      'https://your-render-api-url.com'; // Replace with actual FastAPI URL
+      'https://airwaves1.onrender.com'; // Replace with actual FastAPI URL
 
   /// Fetches flight delay prediction from the FastAPI backend
   static Future<double> getPrediction(FlightData flightData) async {
